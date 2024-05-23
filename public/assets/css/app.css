@@ -1,26 +1,8 @@
-:root {
-  font-size: 20px;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-p {
-  margin: 0;
-}
-
-p:not(:last-child) {
-  margin-bottom: 1.5em;
-}
 
 body {
   font: 1em/1.618 Inter, sans-serif;
-
   display: flex;
-
+ font-size: 20px;
   padding: 30px;
   margin: 0;
 
@@ -42,7 +24,4 @@ body {
   backdrop-filter: blur(15px);
 }
 
-.card-footer {
-  font-size: 0.65em;
-  color: #446;
-}
+
